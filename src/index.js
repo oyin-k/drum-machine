@@ -15,7 +15,9 @@ const App = () => {
   return (
     <>
       <div className="drumpad-box">
-        <div className="display-box">{display}</div>
+        <div id="display" className="display-box">
+          {display}
+        </div>
         <PadContainer display={displayClipName} />
       </div>
     </>

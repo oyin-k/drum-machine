@@ -42,7 +42,7 @@ export default function DrumPad({
   }, [onMyPress, removeMyPress]);
 
   return (
-    <div>
+    <div id="display">
       <button
         id={clipId}
         onClick={playSound}
